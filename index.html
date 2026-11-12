@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Eform Y Khoa &amp; Eform Lite</title>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --text: #0f172a;
+      --muted: #475569;
+      --border: #e2e8f0;
+      --accent: #0f766e;
+      --accent-soft: #f0fdfa;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 32px 16px 56px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 32px 36px;
+      box-shadow: 0 4px 24px rgba(15, 23, 42, 0.05);
+    }
+    header {
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 18px;
+      margin-bottom: 24px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 26px;
+      color: var(--accent);
+    }
+    .meta {
+      font-size: 14px;
+      color: var(--muted);
+    }
+    h2 {
+      margin: 28px 0 12px;
+      font-size: 19px;
+      color: #0f172a;
+      border-left: 4px solid var(--accent);
+      padding-left: 12px;
+    }
+    .lang-tag {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      border: 1px solid #99f6e4;
+      margin-right: 6px;
+      vertical-align: middle;
+    }
+    ul {
+      margin: 8px 0 14px;
+      padding-left: 22px;
+    }
+    li { margin-bottom: 8px; }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.9em;
+      background: #f1f5f9;
+      padding: 2px 5px;
+      border-radius: 4px;
+    }
+    .contact-box {
+      background: var(--accent-soft);
+      border: 1px solid #99f6e4;
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin-top: 10px;
+      font-size: 14.5px;
+    }
+    .contact-box a {
+      color: var(--accent);
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .contact-box a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 32px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      font-size: 13px;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Privacy Policy / Chính Sách Quyền Riêng Tư</h1>
+      <div class="meta">
+        <strong>Extension Names / Tên tiện ích:</strong>
+        Eform Y Khoa - Trợ Lý Bệnh Án Điện Tử (Full) &amp; Eform Lite - Gõ Tắt &amp; Nhập Liệu Y Khoa (Lite)<br>
+        <strong>Last Updated / Cập nhật lần cuối:</strong> November 2026
+      </div>
+    </header>
+
+    <section>
+      <h2>1. Overview (Tổng quan)</h2>
+      <p><span class="lang-tag">EN</span> <strong>Eform Y Khoa - Trợ Lý Bệnh Án Điện Tử</strong> (Full edition) and <strong>Eform Lite - Gõ Tắt &amp; Nhập Liệu Y Khoa</strong> (Lite edition) are browser extensions designed for healthcare professionals to assist with clinical documentation (multi-line text expansion/hotstrings, copy/paste restoration, keyboard typing assistance, and clinical decision-support calculators). We are committed to protecting user privacy and medical data confidentiality.</p>
+      <p><span class="lang-tag">VI</span> <strong>Eform Y Khoa - Trợ Lý Bệnh Án Điện Tử</strong> (Bản Đầy Đủ) và <strong>Eform Lite - Gõ Tắt &amp; Nhập Liệu Y Khoa</strong> (Bản Gọn Nhẹ) là các tiện ích trình duyệt hỗ trợ bác sĩ và nhân viên y tế soạn thảo bệnh án điện tử (gõ tắt đa dòng, khôi phục copy/paste, hỗ trợ nhập liệu qua bàn phím và tính toán các công thức lâm sàng). Chúng tôi cam kết bảo vệ quyền riêng tư của người dùng và tính bảo mật của dữ liệu y khoa.</p>
+    </section>
+
+    <section>
+      <h2>2. Data Collection &amp; Storage (Thu thập &amp; Lưu trữ dữ liệu)</h2>
+      <p><span class="lang-tag">EN</span></p>
+      <ul>
+        <li><strong>Zero Developer Server Collection:</strong> Neither extension collects, transmits, stores, or sells any personal data, patient health information (PHI), or browsing history to any developer-controlled server or third-party analytics service.</li>
+        <li><strong>Persistent Local Storage (<code>chrome.storage.local</code>):</strong> User-defined hotstrings (text templates), extension preferences (typing speed, user-activated domains, and in the Full edition the user's optional personal Gemini API key), and up to 20 automatic backup snapshots are stored exclusively on your local device using <code>chrome.storage.local</code>.</li>
+        <li><strong>Ephemeral Session Storage (<code>chrome.storage.session</code>):</strong> Temporary workspace data created during active clinical workflows (bilingual translation drafts <code>bilingual_eform_session</code> in both editions; and copied old medical record snapshots <code>copied_old_eform_record</code> and transient AI Eform inputs/outputs in the Full edition) is stored strictly in volatile <code>chrome.storage.session</code> memory and is automatically purged when the browser closes.</li>
+      </ul>
+      <p><span class="lang-tag">VI</span></p>
+      <ul>
+        <li><strong>Không thu thập dữ liệu về máy chủ:</strong> Cả hai phiên bản đều <strong>KHÔNG</strong> thu thập, truyền tải, lưu trữ hay bán bất kỳ dữ liệu cá nhân, thông tin bệnh nhân (PHI) hay lịch sử duyệt web nào về máy chủ của nhà phát triển hoặc bên thứ ba.</li>
+        <li><strong>Lưu trữ cục bộ trên thiết bị (<code>chrome.storage.local</code>):</strong> Danh sách từ viết tắt, cài đặt cá nhân (tốc độ gõ, danh sách tên miền đã kích hoạt, và ở Bản Đầy Đủ là khóa Gemini API cá nhân nếu người dùng tự nhập) cùng tối đa 20 bản sao lưu lịch sử được lưu hoàn toàn trên thiết bị của bạn thông qua <code>chrome.storage.local</code>.</li>
+        <li><strong>Lưu trữ phiên tạm thời (<code>chrome.storage.session</code>):</strong> Dữ liệu tạm thời khi thao tác trên bệnh án (bản nháp dịch song ngữ <code>bilingual_eform_session</code> ở cả hai phiên bản; bản sao bệnh án cũ <code>copied_old_eform_record</code> và nội dung phiên AI Eform ở Bản Đầy Đủ) chỉ được giữ trong bộ nhớ phiên <code>chrome.storage.session</code> và tự động xóa sạch khi đóng trình duyệt.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>3. Optional AI API &amp; Bilingual Features (Tính năng API AI tùy chọn &amp; Dịch song ngữ)</h2>
+      <p><span class="lang-tag">EN</span></p>
+      <ul>
+        <li><strong>Lite Edition (<code>Eform Lite - Gõ Tắt &amp; Nhập Liệu Y Khoa</code>):</strong> Performs <strong>zero</strong> background network requests and contains no Gemini API integration or API key storage. Its <strong>Dịch bệnh án (Bilingual Translation)</strong> helper scrapes active Eform fields locally, automatically masks patient identifiers via <code>redactClinicalPii()</code> before previewing/copying a structured translation prompt to the clipboard, and only optionally opens the public <code>gemini.google.com</code> web UI when the user clicks to launch it.</li>
+        <li><strong>Full Edition (<code>Eform Y Khoa - Trợ Lý Bệnh Án Điện Tử</code>):</strong>
+          <ul>
+            <li>Automatic background AI extraction (<code>autoAiSmartScrape</code>) is <strong>disabled by default</strong>.</li>
+            <li>AI features run <strong>only</strong> when the user explicitly opts in and clicks an AI action button (such as the opt-in Gemini API analysis button or opening a prepared prompt for the user's own <code>https://gemini.google.com</code> session).</li>
+            <li>Before any clinical text leaves the browser or is copied for AI assistance, an automatic PII redaction engine (<code>redactClinicalPii</code>) masks patient identifiers (patient names, dates of birth, ID/CCCD/BHYT numbers, PIDs/VisitCodes, phone numbers, email addresses, and street addresses) while preserving clinical terminology, and displays a redacted preview with the masked item count for user review.</li>
+            <li>When using the opt-in Gemini API workflow, de-identified clinical text is transmitted directly from the user's browser to Google's official Gemini API (<code>https://generativelanguage.googleapis.com</code>) using the user's own personal API key passed via the <code>x-goog-api-key</code> HTTP request header (never in URL parameters and never via a developer proxy). The developer has no access to the API key or prompt contents.</li>
+          </ul>
+        </li>
+      </ul>
+      <p><span class="lang-tag">VI</span></p>
+      <ul>
+        <li><strong>Bản Lite (<code>Eform Lite - Gõ Tắt &amp; Nhập Liệu Y Khoa</code>):</strong> Thực hiện <strong>0 yêu cầu mạng nền / API từ xa</strong> và không tích hợp Gemini API hay lưu API Key. Tính năng <strong>Dịch bệnh án (Bilingual Translation)</strong> đọc các trường Eform tại chỗ, tự động che thông tin định danh qua <code>redactClinicalPii()</code> trước khi hiển thị/copy prompt dịch vào clipboard và chỉ mở trang web công khai <code>gemini.google.com</code> khi bác sĩ chủ động bấm nút.</li>
+        <li><strong>Bản Đầy Đủ (<code>Eform Y Khoa - Trợ Lý Bệnh Án Điện Tử</code>):</strong>
+          <ul>
+            <li>Tính năng tự động đọc bằng AI (<code>autoAiSmartScrape</code>) được <strong>tắt mặc định</strong>.</li>
+            <li>Mọi tính năng AI chỉ chạy khi người dùng <strong>chủ động bật/bấm nút xác nhận</strong> (nút phân tích qua Gemini API Opt-in hoặc sao chép sang phiên <code>https://gemini.google.com</code> của chính người dùng).</li>
+            <li>Trước khi dữ liệu được gửi hoặc sao chép, bộ lọc ẩn danh tự động (<code>redactClinicalPii</code>) sẽ che các thông tin định danh cá nhân (họ tên bệnh nhân, ngày sinh, số CCCD/CMND/BHYT, mã PID/VisitCode, số điện thoại, email, địa chỉ) mà vẫn giữ nguyên thuật ngữ y khoa, đồng thời hiển thị bản xem trước và số mục đã ẩn danh để bác sĩ kiểm tra trước khi gửi.</li>
+            <li>Khi chọn phân tích qua Gemini API, văn bản đã ẩn danh được gửi trực tiếp từ trình duyệt tới API chính thức của Google (<code>https://generativelanguage.googleapis.com</code>) bằng khóa API cá nhân của người dùng qua HTTP header <code>x-goog-api-key</code> (không gắn vào URL và không đi qua máy chủ trung gian của nhà phát triển).</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>4. Permissions Usage (Giải trình quyền truy cập)</h2>
+      <p><span class="lang-tag">EN</span></p>
+      <ul>
+        <li><strong>Optional Host Permissions (<code>http://*/*</code>, <code>https://*/*</code> — Per-Domain Opt-In):</strong> Neither extension requests blanket <code>&lt;all_urls&gt;</code> host access at install time. Scripts do <strong>not</strong> run on websites automatically. Only when the user explicitly clicks <em>"Kích hoạt trên trang này"</em> (Activate on this site) or enables a specific hospital EMR/Eform domain does the browser prompt via <code>chrome.permissions.request</code> for that single origin, registering dynamic scripts strictly for user-authorized origins. Major cloud/office web apps (Google Docs, Microsoft 365, GitHub, Facebook, YouTube) are excluded from the copy/paste restoration helper.</li>
+        <li><strong><code>tabs</code>:</strong> Used solely to read the active tab's hostname/URL so the Side Panel can display per-site activation status, verify origin permissions, and target the active EMR/Eform tab when inserting typed text. No browsing history is recorded or transmitted.</li>
+        <li><strong><code>scripting</code>:</strong> Used in both editions to dynamically register and inject the text-expansion and copy/paste restoration scripts strictly on domains explicitly authorized by the user, and on-demand when the user clicks to read or fill active Eform fields (including bilingual Eform fields in both editions, or old record copying / collapsible section expansion in the Full edition).</li>
+        <li><strong><code>storage</code>:</strong> Used exclusively for local preferences/hotstrings/backups (<code>chrome.storage.local</code>) and ephemeral in-memory session drafts (<code>chrome.storage.session</code> in both editions).</li>
+        <li><strong><code>sidePanel</code>:</strong> Displays clinical calculators, hotstring management, and typing helpers in the browser Side Panel alongside the active EMR/Eform page.</li>
+        <li><strong><code>clipboardRead</code> / <code>clipboardWrite</code>:</strong> Used strictly when the user triggers copy/paste shortcuts (<code>Ctrl+Alt+C</code>, <code>Alt+Shift+C</code>, <code>Alt+Shift+V</code>, <code>Ctrl+Alt+V</code>, <code>Ctrl+Shift+V</code>), clicks Copy/Paste buttons in the Side Panel, or expands a hotstring containing <code>{{clipboard}}</code>.</li>
+      </ul>
+      <p><span class="lang-tag">VI</span></p>
+      <ul>
+        <li><strong>Quyền truy cập tên miền tùy chọn (<code>optional_host_permissions</code>: <code>http://*/*</code>, <code>https://*/*</code> — Cấp quyền theo từng trang):</strong> Tiện ích <strong>không</strong> xin quyền <code>&lt;all_urls&gt;</code> mặc định và không tự chạy trên các trang web khác. Chỉ khi bác sĩ bấm <em>"Kích hoạt trên trang này"</em> trên cổng bệnh án điện tử (EMR/Eform) đang mở, trình duyệt mới hỏi cấp quyền cho đúng tên miền đó và đăng ký script động cho các trang đã cấp phép.</li>
+        <li><strong><code>tabs</code>:</strong> Chỉ dùng để kiểm tra tên miền của tab đang mở nhằm hiển thị trạng thái Bật/Tắt theo trang và định vị đúng tab bệnh án khi chèn văn bản. Không lưu trữ hay gửi lịch sử duyệt web.</li>
+        <li><strong><code>scripting</code>:</strong> Dùng ở cả hai phiên bản để đăng ký và nạp script nhập liệu/khôi phục copy-paste trên đúng các tên miền người dùng đã cấp quyền, đồng thời đọc/điền các trường Eform đang mở khi bác sĩ bấm nút.</li>
+        <li><strong><code>storage</code>:</strong> Lưu từ viết tắt, cài đặt, sao lưu cục bộ (<code>chrome.storage.local</code>) và dữ liệu phiên tạm (<code>chrome.storage.session</code> ở cả hai phiên bản).</li>
+        <li><strong><code>sidePanel</code>:</strong> Hiển thị bộ công cụ lâm sàng và quản lý từ viết tắt ở thanh bên trình duyệt ngay cạnh trang bệnh án đang mở.</li>
+        <li><strong><code>clipboardRead</code> / <code>clipboardWrite</code>:</strong> Chỉ sử dụng khi người dùng thực hiện phím tắt hoặc nút Copy/Paste, hoặc sử dụng biến <code>{{clipboard}}</code> trong mẫu từ viết tắt.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>5. Third-Party Sharing &amp; Tracking (Chia sẻ bên thứ ba &amp; Theo dõi)</h2>
+      <p><span class="lang-tag">EN</span> We do <strong>not</strong> use any analytics, telemetry, advertising SDKs, or tracking cookies. We do <strong>not</strong> sell, rent, or transfer any user or patient data to third parties.</p>
+      <p><span class="lang-tag">VI</span> Chúng tôi <strong>không</strong> sử dụng bất kỳ công cụ thống kê (analytics), theo dõi từ xa, quảng cáo hay cookie theo dõi nào. Chúng tôi <strong>không</strong> bán, cho thuê hoặc chuyển giao bất kỳ dữ liệu nào cho bên thứ ba.</p>
+    </section>
+
+    <section>
+      <h2>6. Medical Disclaimer (Miễn trừ trách nhiệm Y khoa)</h2>
+      <p><span class="lang-tag">EN</span> All clinical calculations (eGFR, Cockcroft-Gault, FIB-4, Corrected Calcium, BMI/BSA/IBW/AdjBW, QTc, Levothyroxine dosing, Diabetes, GDM, Obesity, and Hyperthyroid assessments) and optional AI summaries are clinical productivity and decision-support tools intended exclusively for qualified healthcare professionals and do not replace independent clinical judgment.</p>
+      <p><span class="lang-tag">VI</span> Mọi công thức tính toán lâm sàng (eGFR, Cockcroft-Gault, FIB-4, Canxi hiệu chỉnh, BMI/BSA/IBW/AdjBW, QTc, liều Levothyroxine, đánh giá ĐTĐ, ĐTĐ thai kỳ, Béo phì, Cường giáp) và tóm tắt AI tùy chọn chỉ mang tính chất công cụ hỗ trợ cho nhân viên y tế có chuyên môn, không thay thế phán đoán và quyết định điều trị của bác sĩ.</p>
+    </section>
+
+    <section>
+      <h2>7. Contact &amp; Support (Liên hệ &amp; Hỗ trợ)</h2>
+      <div class="contact-box">
+        <strong>Developer Contact Email / Email hỗ trợ nhà phát triển:</strong>
+        <a href="mailto:bladels94@gmail.com">bladels94@gmail.com</a><br>
+        <em>Chrome Web Store &amp; Microsoft Edge Add-ons Support contact email for both extensions.</em>
+      </div>
+      <p style="margin-top: 10px;"><strong>Support Channel / Kênh hỗ trợ:</strong> Chrome Web Store / Microsoft Edge Add-ons Support tab on the extension listing page.</p>
+    </section>
+
+    <footer>
+      Eform Y Khoa &amp; Eform Lite — Privacy Policy Static Page
+    </footer>
+  </main>
+</body>
+</html>
